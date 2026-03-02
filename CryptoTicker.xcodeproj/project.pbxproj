@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033875134E497A4621DB2A50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF0A098FB90445E449935E /* ContentView.swift */; };
+		0E417407305817B67E9829DF /* BinanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C8549894C643A17C42645 /* BinanceService.swift */; };
+		196384460F6607DA057CBDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE430CAA316881323E0407D /* Assets.xcassets */; };
+		29DB469C02C68A6676DF9D9C /* CryptoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF6A04F51D5916C5A38F8C /* CryptoCardView.swift */; };
+		32E652D3604A521AA9366765 /* CryptoTickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59188FBDF015E81313DB0A34 /* CryptoTickerApp.swift */; };
+		5B94882E1DAC33C5592148EC /* TimeFrameSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C1B3766BBAA9B4E944F4B /* TimeFrameSelectorView.swift */; };
+		72CF5DCAF7E1DCC3F67FC345 /* FloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EAEBDAF97D83E35B54334B /* FloatingPanel.swift */; };
+		7413E3B1E29796588FF7A631 /* CryptoCompareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FCF7F08B46909F4540568 /* CryptoCompareService.swift */; };
+		7607F4C196398DA34B6471D4 /* CompactChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF330D175E50F1A52F3B8C /* CompactChartView.swift */; };
+		8D5188835B622837037E8553 /* PriceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0433E04C6227B478BDF0A5C /* PriceChartView.swift */; };
+		A2E18815A8AEB9594473EDF5 /* CoinbaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F26A6D27FB8F16625008D /* CoinbaseService.swift */; };
+		C0AC5A33F3F4D8F59981F8A1 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78661876C168BD443EA8E1E /* CryptoViewModel.swift */; };
+		C2A7E77D6DD294DCEC14920F /* CryptoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F57908FF4F065234E4A75B /* CryptoModels.swift */; };
+		F65D30948419B0E8739640EF /* CoinGeckoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71B90185BB5BF66132E994 /* CoinGeckoService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17AF0A098FB90445E449935E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D0407B68643A54158C677C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		453C8549894C643A17C42645 /* BinanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceService.swift; sourceTree = "<group>"; };
+		48EAEBDAF97D83E35B54334B /* FloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanel.swift; sourceTree = "<group>"; };
+		59188FBDF015E81313DB0A34 /* CryptoTickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTickerApp.swift; sourceTree = "<group>"; };
+		5B71B90185BB5BF66132E994 /* CoinGeckoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGeckoService.swift; sourceTree = "<group>"; };
+		5BE430CAA316881323E0407D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614F26A6D27FB8F16625008D /* CoinbaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinbaseService.swift; sourceTree = "<group>"; };
+		61F57908FF4F065234E4A75B /* CryptoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModels.swift; sourceTree = "<group>"; };
+		6AD0B688355EDC83303753B1 /* CryptoTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9C1B3766BBAA9B4E944F4B /* TimeFrameSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFrameSelectorView.swift; sourceTree = "<group>"; };
+		78EF330D175E50F1A52F3B8C /* CompactChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactChartView.swift; sourceTree = "<group>"; };
+		80FEFE58F2CBE748C4D09F4B /* CryptoTicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptoTicker.entitlements; sourceTree = "<group>"; };
+		C0433E04C6227B478BDF0A5C /* PriceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChartView.swift; sourceTree = "<group>"; };
+		D74FCF7F08B46909F4540568 /* CryptoCompareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCompareService.swift; sourceTree = "<group>"; };
+		E78661876C168BD443EA8E1E /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		F0EF6A04F51D5916C5A38F8C /* CryptoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		16B8CD916C3D9C66BF7F533D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BE430CAA316881323E0407D /* Assets.xcassets */,
+				80FEFE58F2CBE748C4D09F4B /* CryptoTicker.entitlements */,
+				2D0407B68643A54158C677C1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2447054CA6259E891478D3DE /* CryptoTicker */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD483BB5ECB798271A7BA3 /* App */,
+				46C96220104ACBC2432B6005 /* Models */,
+				16B8CD916C3D9C66BF7F533D /* Resources */,
+				5271B2CE4E792CB12848365E /* Services */,
+				E5442BD54AB284790806E511 /* ViewModels */,
+				2BFE995857843946ECB49D7B /* Views */,
+			);
+			name = CryptoTicker;
+			path = .;
+			sourceTree = "<group>";
+		};
+		2BFE995857843946ECB49D7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78EF330D175E50F1A52F3B8C /* CompactChartView.swift */,
+				17AF0A098FB90445E449935E /* ContentView.swift */,
+				F0EF6A04F51D5916C5A38F8C /* CryptoCardView.swift */,
+				48EAEBDAF97D83E35B54334B /* FloatingPanel.swift */,
+				C0433E04C6227B478BDF0A5C /* PriceChartView.swift */,
+				6B9C1B3766BBAA9B4E944F4B /* TimeFrameSelectorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46C96220104ACBC2432B6005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61F57908FF4F065234E4A75B /* CryptoModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5271B2CE4E792CB12848365E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				453C8549894C643A17C42645 /* BinanceService.swift */,
+				614F26A6D27FB8F16625008D /* CoinbaseService.swift */,
+				5B71B90185BB5BF66132E994 /* CoinGeckoService.swift */,
+				D74FCF7F08B46909F4540568 /* CryptoCompareService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5831D5E3723B4A468AA4CD5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0B688355EDC83303753B1 /* CryptoTicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5442BD54AB284790806E511 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E78661876C168BD443EA8E1E /* CryptoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EEBD483BB5ECB798271A7BA3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				59188FBDF015E81313DB0A34 /* CryptoTickerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FCCB7934C683E87F645C8D3F = {
+			isa = PBXGroup;
+			children = (
+				EEBD483BB5ECB798271A7BA3 /* App */,
+				2447054CA6259E891478D3DE /* CryptoTicker */,
+				46C96220104ACBC2432B6005 /* Models */,
+				16B8CD916C3D9C66BF7F533D /* Resources */,
+				5271B2CE4E792CB12848365E /* Services */,
+				E5442BD54AB284790806E511 /* ViewModels */,
+				2BFE995857843946ECB49D7B /* Views */,
+				5831D5E3723B4A468AA4CD5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2910897A240B23BE0E1297A2 /* CryptoTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B886430903C091B15E272D /* Build configuration list for PBXNativeTarget "CryptoTicker" */;
+			buildPhases = (
+				9B5A2C31B4D13532AA63C970 /* Sources */,
+				24026C888944288832353006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoTicker;
+			packageProductDependencies = (
+			);
+			productName = CryptoTicker;
+			productReference = 6AD0B688355EDC83303753B1 /* CryptoTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EEDDC56D5415ED06F2CDD84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 339409A4C1BD47132B42DAD3 /* Build configuration list for PBXProject "CryptoTicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FCCB7934C683E87F645C8D3F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2910897A240B23BE0E1297A2 /* CryptoTicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24026C888944288832353006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196384460F6607DA057CBDE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B5A2C31B4D13532AA63C970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E417407305817B67E9829DF /* BinanceService.swift in Sources */,
+				F65D30948419B0E8739640EF /* CoinGeckoService.swift in Sources */,
+				A2E18815A8AEB9594473EDF5 /* CoinbaseService.swift in Sources */,
+				7607F4C196398DA34B6471D4 /* CompactChartView.swift in Sources */,
+				033875134E497A4621DB2A50 /* ContentView.swift in Sources */,
+				29DB469C02C68A6676DF9D9C /* CryptoCardView.swift in Sources */,
+				7413E3B1E29796588FF7A631 /* CryptoCompareService.swift in Sources */,
+				C2A7E77D6DD294DCEC14920F /* CryptoModels.swift in Sources */,
+				32E652D3604A521AA9366765 /* CryptoTickerApp.swift in Sources */,
+				C0AC5A33F3F4D8F59981F8A1 /* CryptoViewModel.swift in Sources */,
+				72CF5DCAF7E1DCC3F67FC345 /* FloatingPanel.swift in Sources */,
+				8D5188835B622837037E8553 /* PriceChartView.swift in Sources */,
+				5B94882E1DAC33C5592148EC /* TimeFrameSelectorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		177D60E9DDDAD1E7E2C3F918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = Resources/CryptoTicker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = CryptoTicker;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		3C48965DA22D9CAB7D06A3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/CryptoTicker.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptoticker.pro;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D36E44BD9B67ABF1DFD5ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = Resources/CryptoTicker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = CryptoTicker;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		A953C299CAAEC7474B4BE367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/CryptoTicker.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptoticker.pro;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339409A4C1BD47132B42DAD3 /* Build configuration list for PBXProject "CryptoTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177D60E9DDDAD1E7E2C3F918 /* Debug */,
+				4D36E44BD9B67ABF1DFD5ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9B886430903C091B15E272D /* Build configuration list for PBXNativeTarget "CryptoTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A953C299CAAEC7474B4BE367 /* Debug */,
+				3C48965DA22D9CAB7D06A3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EEDDC56D5415ED06F2CDD84 /* Project object */;
+}
