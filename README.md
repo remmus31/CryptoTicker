@@ -1,63 +1,48 @@
-# CryptoTicker - macOS Cryptocurrency Ticker App
+# CryptoTicker 🚀
 
 A beautiful, floating cryptocurrency ticker for macOS that displays real-time prices for Bitcoin, Ethereum, and Solana.
 
-## Features
+![CryptoTicker Screenshot](screenshot.png)
 
-- 🚀 Real-time price updates from Coinbase API
-- 📊 Interactive price charts with Swift Charts
-- 🎨 Glassmorphism design with transparent floating window
-- 📱 Compact mode with price curve display
-- 🔄 Auto-refresh with configurable intervals
-- 🌙 Dark theme with green/red price indicators
+## ✨ Features
 
-## Requirements
+- **Real-time Prices** - Live data from Coinbase API
+- **Interactive Charts** - Swift Charts with 7 timeframes (1m, 5m, 15m, 1h, 4h, 1d, 1M)
+- **Glassmorphism Design** - Transparent floating window with macOS native feel
+- **Compact/Expanded Mode** - Hover to expand, click outside to compact
+- **Auto-refresh** - Configurable update intervals (5s, 10s, 15s, 30s, 60s)
 
-- macOS 13.0 or later
-- Xcode 15.0 or later
+## 📥 Download
 
-## Installation
+**[Download CryptoTicker v1.0 DMG](https://github.com/remmus31/CryptoTicker/releases)**
 
-### From DMG
-1. Download the latest release from GitHub
-2. Open the DMG file
-3. Drag CryptoTicker to your Applications folder
-4. Launch the app
-
-### From Source
+Or build from source:
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/CryptoTicker.git
+git clone https://github.com/remmus31/CryptoTicker.git
 cd CryptoTicker
-
-# Open in Xcode
 open CryptoTicker.xcodeproj
-
-# Or build from command line
-xcodebuild -project CryptoTicker.xcodeproj -scheme CryptoTicker -configuration Release build
 ```
 
-## Usage
+## 🛠 Tech Stack
 
-- **Hover** over the window to expand and see detailed charts
-- **Click** outside to return to compact mode
-- **Select** different cryptocurrencies (BTC, ETH, SOL) from the cards
-- **Choose** different timeframes (1m, 5m, 15m, 1h, 4h, 1d, 1M)
-- **Configure** refresh interval from the status bar menu
+- SwiftUI + Swift Charts
+- NSPanel (floating window)
+- Coinbase API
+- MVVM Architecture
 
-## Configuration
+## 📱 Requirements
 
-The app uses [Coinbase API](https://www.coinbase.com/) for real-time price data, which is:
-- Free to use
-- No API key required
-- Reliable and fast
+- macOS 13.0+
+- Xcode 15.0+
 
-## License
+## ⭐ Support
 
-MIT License - see LICENSE for details
+- ⭐ Star the repo
+- 🐛 Report issues
+- 📢 Share with friends
 
-## Acknowledgments
+---
 
-- [Coinbase API](https://www.coinbase.com/) for price data
-- [Swift Charts](https://developer.apple.com/documentation/charts) for visualization
-- [CryptoCompare](https://www.cryptocompare.com/) for historical data
+**GitHub**: https://github.com/remmus31/CryptoTicker
+
+Made with 💙 for crypto enthusiasts
