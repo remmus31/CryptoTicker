@@ -2,8 +2,6 @@
 
 A beautiful, floating cryptocurrency ticker for macOS that displays real-time prices for Bitcoin, Ethereum, and Solana.
 
-![CryptoTicker Screenshot](screenshot.png)
-
 ## ✨ Features
 
 - **Real-time Prices** - Live data from Coinbase API
@@ -11,6 +9,14 @@ A beautiful, floating cryptocurrency ticker for macOS that displays real-time pr
 - **Glassmorphism Design** - Transparent floating window with macOS native feel
 - **Compact/Expanded Mode** - Hover to expand, click outside to compact
 - **Auto-refresh** - Configurable update intervals (5s, 10s, 15s, 30s, 60s)
+
+## 📱 Screenshots
+
+### Compact Mode
+![Compact Mode](compact_mode.png)
+
+### Expanded Mode
+![Expanded Mode](expand_mode.png)
 
 ## 📥 Download
 
@@ -30,7 +36,7 @@ open CryptoTicker.xcodeproj
 - Coinbase API
 - MVVM Architecture
 
-## 📱 Requirements
+## 📋 Requirements
 
 - macOS 13.0+
 - Xcode 15.0+
